@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[chrome browser launched ...]]>
+    </line>
+    <line>
+      <![CDATA[anytime astro website open]]>
+    </line>
+    <line>
+      <![CDATA[signin button hit]]>
+    </line>
+    <line>
+      <![CDATA[login via email]]>
+    </line>
+    <line>
+      <![CDATA[mail id passed]]>
+    </line>
+    <line>
+      <![CDATA[login button click]]>
+    </line>
+    <line>
+      <![CDATA[teardown method executed]]>
+    </line>
+    <line>
+      <![CDATA[second method execution started]]>
+    </line>
+    <line>
+      <![CDATA[Expert list fetching started....]]>
+    </line>
+    <line>
+      <![CDATA[teardown method executed]]>
+    </line>
+    <line>
+      <![CDATA[logout button hit]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-21T17:56:05 IST" name="Default suite" finished-at="2023-07-21T17:58:27 IST" duration-ms="141527">
+    <groups>
+    </groups>
+    <test started-at="2023-07-21T17:56:05 IST" name="Default test" finished-at="2023-07-21T17:58:27 IST" duration-ms="141527">
+      <class name="com.itl.practice.ExpDetails_online_busy_StatusTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.itl.practice.ExpDetails_online_busy_StatusTest@54e1c68b]" started-at="2023-07-21T17:56:05 IST" name="openBrowser" finished-at="2023-07-21T17:56:08 IST" duration-ms="2365" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser launched ...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.itl.practice.ExpDetails_online_busy_StatusTest@54e1c68b]" started-at="2023-07-21T17:56:08 IST" name="login" finished-at="2023-07-21T17:56:16 IST" duration-ms="8521" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[anytime astro website open]]>
+            </line>
+            <line>
+              <![CDATA[signin button hit]]>
+            </line>
+            <line>
+              <![CDATA[login via email]]>
+            </line>
+            <line>
+              <![CDATA[mail id passed]]>
+            </line>
+            <line>
+              <![CDATA[login button click]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="beforeMTD()[pri:0, instance:com.itl.practice.ExpDetails_online_busy_StatusTest@54e1c68b]" started-at="2023-07-21T17:56:16 IST" name="beforeMTD" finished-at="2023-07-21T17:56:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMTD -->
+        <test-method signature="online_busy_status()[pri:1, instance:com.itl.practice.ExpDetails_online_busy_StatusTest@54e1c68b]" started-at="2023-07-21T17:56:16 IST" name="online_busy_status" finished-at="2023-07-21T17:56:34 IST" duration-ms="17753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- online_busy_status -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.itl.practice.ExpDetails_online_busy_StatusTest@54e1c68b]" started-at="2023-07-21T17:56:34 IST" name="tearDown" finished-at="2023-07-21T17:56:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[teardown method executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeMTD()[pri:0, instance:com.itl.practice.ExpDetails_online_busy_StatusTest@54e1c68b]" started-at="2023-07-21T17:56:34 IST" name="beforeMTD" finished-at="2023-07-21T17:56:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMTD -->
+        <test-method signature="expertIDWithNames()[pri:2, instance:com.itl.practice.ExpDetails_online_busy_StatusTest@54e1c68b]" started-at="2023-07-21T17:56:34 IST" name="expertIDWithNames" finished-at="2023-07-21T17:58:22 IST" duration-ms="107696" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[second method execution started]]>
+            </line>
+            <line>
+              <![CDATA[Expert list fetching started....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- expertIDWithNames -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.itl.practice.ExpDetails_online_busy_StatusTest@54e1c68b]" started-at="2023-07-21T17:58:22 IST" name="afterClass" finished-at="2023-07-21T17:58:22 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.itl.practice.ExpDetails_online_busy_StatusTest@54e1c68b]" started-at="2023-07-21T17:58:22 IST" name="tearDown" finished-at="2023-07-21T17:58:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[teardown method executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.itl.practice.ExpDetails_online_busy_StatusTest@54e1c68b]" started-at="2023-07-21T17:58:22 IST" name="closeBrowser" finished-at="2023-07-21T17:58:27 IST" duration-ms="4672" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout button hit]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.itl.practice.ExpDetails_online_busy_StatusTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
